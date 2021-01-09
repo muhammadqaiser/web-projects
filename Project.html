@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html>
+ 
+<head>
+
+ <title> 
+Form submisson
+ </title> 
+ <style>
+   html{font-size: large;font-family: Arial, Helvetica, sans-serif;font-style: bold;padding: 5px;color: navy;}
+   </style>
+</head>
+ <body>
+    <form action="scratch.html">
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser">
+      
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+     <label for="name">First Name</label><br>
+<input type="text" placeholder="Firstname"  name="name"><br>
+<label for="name">Second Name</label><br>
+<input type="text" placeholder="Second name" name="name"><br>
+<label for="date"> Date Of Birth </label><br>
+<input type="text" placeholder="DD/MM/YY" ><br>
+<label for="gender">Gender</label><br>
+<input type="radio" name="gender" value="Male">Male  
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other"> Other <br>
+<label for="number">Phone number</label><br>
+<input type="text" placeholder="Phone Number" name=mber"><br>
+<label for="emal">E-mail</label><br>
+<input type="text" placeholder="E-mail" name="E-mail"><br>
+<label for="number">Parent's Phone NO.</label><br>
+<input type="text" placeholder="Phone or Ptcl"><br>
+<label for="education">Your Education:</label>
+<input list="educationlevels" name="education" id="education">
+<datalist id="educationlevels"> 
+  <option value="middle school"> 
+  <option value="high school">
+   <option value="graduate">
+   <option value="master">
+   <option value="PHD">
+ </datalist>
+<button>SUBMIT</button>
+
+</form>
+  </body>
+
+ </html>
